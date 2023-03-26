@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;  
+            height: 70px;
+            background-color: black;
+        }
+        .nav-button{
+            /* border: 1px solid red; */
+            list-style: none;
+            display: flex;
+            /* padding: auto; */
+            justify-content: center;
+            align-items: center;
+            margin: 12px;
+        }
+        #nav-button-1{
+            /* padding: 12px; */
+        }
+        .nav-button-text
+        {
+            text-decoration: none;
+            padding: 12px;
+            color: white;
+            background-color: black;
+            border-radius: 22px;
+        }
+        .nav-button-text:hover{
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <li class="nav-button" id="nav-button-1"><a class="nav-button-text" href="#">HOME</a></li>
+        <li class="nav-button" id="nav-button-2"><a class="nav-button-text" href="#">MADHUR</a></li>
+        <li class="nav-button" id="nav-button-3"><a class="nav-button-text" href="#">Cack</a></li>
+        <li class="nav-button" id="nav-button-4"><a class="nav-button-text" href="#">AHE</a></li>
+        <li class="nav-button" id="nav-button-5"><a class="nav-button-text" href="#">DA</a></li>
+    </div>
+</body>
+</html>

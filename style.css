@@ -1,0 +1,40 @@
+a[href="/1.html"], a[href="/3.html"], a[href="/4.html"]{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a[href="/index.html"], a[href="#"]{
+    color: rgb(0, 0, 0);
+    text-decoration: none;  /*for removing the underline*/
+}
+
+a[href="/2.html"]{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    align-content: center;
+}
+#first, #second, #third, #fourth {
+    box-sizing: border-box;
+    width: 25%;
+    height: 250px;
+    text-align:center;
+    line-height: 1; 
+    padding: 5%;
+    font-size:xx-large;
+
+    background-color:rgb(89, 219, 255);
+    border: 4px solid black;
+}
+
+.search{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+}
